@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Utama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="TH.mp3" type="audio/mpeg">
+  </audio>
+  
+  <iframe id="contentFrame" src="first.html"></iframe>
+  <script>
+    function navigate(page) {
+      document.getElementById("contentFrame").src = page;
+    }
+  </script>
+</body>
+</html>
